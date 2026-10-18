@@ -1,22 +1,19 @@
-<p align="center">
-  <img src="assets/headshot.jpg" width="150" alt="Radha Prabhakaran">
-</p>
+<img align="left" src="assets/headshot-round.png" width="180" alt="Radha Prabhakaran">
 
-<h1 align="center">Radha Prabhakaran</h1>
+<h1>Radha Prabhakaran</h1>
 
-<p align="center">
+<p>
   <b>SOC · Detection Engineering · DFIR · Security Automation</b><br>
-  I build things that show how attacks chain together, and the detections that catch them.
+  I build things that show how attacks chain together, and the detections that catch them.<br>
+  Chicago, IL · M.A.S. Cyber Forensics &amp; Security, Illinois Institute of Technology (2025)
 </p>
 
-<p align="center">
+<p>
   <a href="https://www.linkedin.com/in/radha-prabhakaran"><img src="https://img.shields.io/badge/LinkedIn-radha--prabhakaran-8f2f22?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:cybrad8@gmail.com"><img src="https://img.shields.io/badge/Email-Get%20in%20touch-8f2f22?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email"></a>
 </p>
 
-<p align="center">
-  Chicago, IL · M.A.S. Cyber Forensics &amp; Security, Illinois Institute of Technology (2025)
-</p>
+<br clear="left">
 
 ---
 
