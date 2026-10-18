@@ -1,155 +1,120 @@
-# Hi, I'm Radha Prabhakaran 👋
+<p align="center">
+  <img src="assets/headshot.jpg" width="150" alt="Radha Prabhakaran">
+</p>
 
-**Cybersecurity Professional | M.A.S. Cyber Forensics & Security — Illinois Institute of Technology (2025)**
+<h1 align="center">Radha Prabhakaran</h1>
 
-Chicago, IL | [LinkedIn](https://www.linkedin.com/in/radha-prabhakaran) | [GitHub](https://github.com/Radha1008)
+<p align="center">
+  <b>SOC · Detection Engineering · DFIR · Security Automation</b><br>
+  I build things that show how attacks chain together, and the detections that catch them.
+</p>
 
----
+<p align="center">
+  <a href="https://www.linkedin.com/in/radha-prabhakaran"><img src="https://img.shields.io/badge/LinkedIn-radha--prabhakaran-8f2f22?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:cybrad8@gmail.com"><img src="https://img.shields.io/badge/Email-Get%20in%20touch-8f2f22?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email"></a>
+</p>
 
-## About Me
-
-Cybersecurity Automation Consultant with hands-on experience in alert triage, vulnerability assessment, and compliance frameworks including NIST SP 800-53 and ISO 27001:2022. IEEE-published researcher and patent co-inventor. Competed in NCAE Cyber Games Nationals 2024 & 2025, selected for the WiCyS x SANS Security scholarship, and won the IEEE WIE Wireshark competition. Actively pursuing CompTIA Security+.
-
-- 🎓 M.A.S. Cyber Forensics & Security, **GPA 3.90** — Illinois Institute of Technology (2025)
-- 🎓 B.E. Electronics & Communication Engineering, **GPA 3.84** — KCG College of Technology (2023)
-- 💼 **Cybersecurity Automation Consultant** — Gulf Coast Automation Group, LLC
-- 🔐 Currently pursuing **CompTIA Security+**
-- 🏆 NCAE Cyber Games Nationals 2024 & 2025 | WiCyS x SANS Scholarship | IEEE WIE Wireshark Winner
-
----
-
-## Professional Experience
-
-**Cybersecurity Automation Consultant** — Gulf Coast Automation Group, LLC *(Oct 2025 – Present)*
-- Asset inventory and vulnerability assessments across Google Workspace and custom APIs
-- Monitoring system activity to detect anomalies and support incident response
-- Security policy development and compliance reporting aligned with least privilege principles
-
-**SOC Analyst Training Cohort** — Raíces Cyber *(Apr 2025 – Jul 2025)*
-- Triaged 2,000+ simulated alerts in an Elastic SIEM environment
-- Analyzed multi-source logs (Sysmon, SonicWall, Auditd, Osquery, FIM) for threat hunting
-- Tuned Elastic detection rules to reduce false positives and improve event correlation
-
-**Graduate Teaching Assistant** — Illinois Institute of Technology *(Feb 2025 – May 2025)*
-- Supported 48 students in Introduction to Open Source OS; graded posts and provided technical support
-
-**Cybersecurity Intern** — 247ERICPOINTCOM, South Africa *(Jun 2024 – Aug 2024)*
-- Developed a Web Application Firewall (WAF) prototype with full UML-documented system requirements
-- Led a remote 4-member team across time zones to deliver project milestones on schedule
+<p align="center">
+  Chicago, IL · M.A.S. Cyber Forensics &amp; Security, Illinois Institute of Technology (2025)
+</p>
 
 ---
 
-## Academic Projects @ IIT
+## About me
 
-### 🏥 Healthcare Management Database System
-> *Database Security Course | 2-Person Team | Feb 2025 – May 2025*
-
-Designed and implemented a secure healthcare database applying enterprise-grade security controls.
-
-- AES-256 encryption at rest (Fernet), TLS in transit, bcrypt-hashed passwords, RBAC
-- Deployed NIST SP 800-53 controls: AC-2 (account management), AC-7 (login lockout), AU-8 (audit logging)
-- Maintained HIPAA compliance; completed with a CPI of 1.01 using Earned Value Management (EVM)
-
-🔗 [View on GitHub](https://github.com/Radha1008/healthcare-db-iit)
+- Cybersecurity Automation Consultant at Gulf Coast Automation Group: asset inventory, vulnerability assessments and compliance reporting across Google Workspace and custom APIs.
+- Trained in a SOC analyst cohort at Raíces Cyber, where I triaged 2,000+ simulated alerts in an instructor-built Elastic SIEM environment and tuned detection rules.
+- IEEE-published researcher and patent co-inventor, with a B.E. in Electronics & Communication Engineering.
+- Currently studying for CompTIA Security+ and building blue-team projects in the open.
 
 ---
 
-### 🛡️ University Cybersecurity Program Audit
-> *ITMS-578 — Fall 2024 | Group Coursework*
+## Featured projects
 
-Audited university cybersecurity documentation for compliance with NIST SP 800-171A.
+### [Chain Reaction](https://github.com/Radha1008/chainreaction-ewgh-2026)
 
-- Identified gaps in malicious code protection, session management, and configuration practices
-- Produced recommendations and checklists for risk assessment, vulnerability monitoring, and CUI handling
+<a href="https://radha1008.github.io/chainreaction-ewgh-2026/"><img src="assets/chain-reaction.png" alt="Chain Reaction home page: a recon terminal where you play the attacker" width="100%"></a>
 
-🔗 [View on GitHub](https://github.com/Radha1008/cybersecurity-audit-iit)
+A privacy-first attack-path simulator. Pick everyday habits and it draws the path an attacker could walk from one to the next, then shows the cheapest link to break. Runs entirely in the browser on a deterministic rules engine, with no tracking and no model calls.
 
----
+- **Analyst mode** maps every step of every path to MITRE ATT&CK v20, with a Defender view of where each step could be detected, and says so honestly when no technique fits.
+- **Detection Pack:** Sigma rules for the steps that leave a trace in Microsoft Entra ID and Exchange Online logs, tested on every push against attack and near-miss samples. CI validates each rule, checks fields against Sentinel table schemas, and builds KQL and SPL.
 
-### 🌐 Securing the IoT Landscape: Challenges and Strategies
-> *ITMS-448/548 — Cybersecurity Technologies | Prof. Dr. Maurice Dawson*
+[**Live demo**](https://radha1008.github.io/chainreaction-ewgh-2026/) · [Detection Pack](https://github.com/Radha1008/chainreaction-ewgh-2026/tree/main/detections)
 
-Research paper analyzing IoT cybersecurity challenges and mitigation strategies.
+`JavaScript` `Sigma` `pySigma` `MITRE ATT&CK` `KQL` `SPL` `GitHub Actions`
 
-- Threat landscape: Botnets (Mirai), remote exploitation, data breaches
-- Case studies: Ring breach, 2016 Dyn DDoS attack
-- Strategies: MFA, TLS/AES encryption, automated firmware patch management
+### [Healthcare Management Database](https://github.com/Radha1008/healthcare-db-iit)
 
-🔗 [View on GitHub](https://github.com/Radha1008/securing-iot-landscape-iit)
+A secure MySQL healthcare database built for a Database Security course. AES-256 encryption at rest, TLS in transit, bcrypt-hashed passwords and role-based access control, with NIST SP 800-53 controls AC-2, AC-7 and AU-8 implemented and HIPAA-aligned access rules.
 
----
+`MySQL` `Python` `NIST SP 800-53` `HIPAA`
 
-### 🔒 Exploring Multilevel Security (MLS) in Information Systems
-> *Database Security Course | Illinois Institute of Technology*
+### [Custom OSINT Phishing Detector](https://github.com/Radha1008/custom-osint-application-iit)
 
-Deep-dive into MLS formal models, real-world applications, and implementation challenges.
+A Python GUI app that pulls data from multiple OSINT APIs to flag phishing indicators, delivered with a full project plan, risk management plan and earned value analysis.
 
-- Security models: Bell-LaPadula (confidentiality), Biba (integrity)
-- Access control: MAC, DAC, RBAC; implementations via SELinux, ACLs, PKI
-- Applications in military, government, healthcare (HIPAA), finance (GDPR)
+`Python` `OSINT` `APIs`
 
-🔗 [View on GitHub](https://github.com/Radha1008/multilevel-security-iit)
+### [University Cybersecurity Program Audit](https://github.com/Radha1008/cybersecurity-audit-iit)
+
+A group audit of university security documentation against NIST SP 800-171A. We found gaps in malicious code protection, session management and configuration practices, and wrote remediation checklists for risk assessment, vulnerability monitoring and CUI handling.
+
+`NIST SP 800-171A` `Audit` `Risk assessment`
 
 ---
 
-## Skills & Tools
+## More work
 
-| Domain | Technologies / Frameworks |
-|--------|--------------------------|
-| SIEM & Monitoring | Elastic SIEM, Splunk, Sysmon, Osquery, FIM |
-| Risk & Compliance | NIST SP 800-53, ISO 27001:2022, HIPAA, GDPR, FISMA, MITRE ATT&CK |
-| Security Tools | Wireshark, SonicWall, Bettercap, Cisco Packet Tracer |
-| Forensics | Autopsy, E3 |
-| Scripting & Automation | Python, Bash |
-| OS & Platforms | Linux (SELinux), Windows Server |
-| Access Control | MLS, Zero Trust, MFA, PKI, RBAC |
-
----
-
-## Certifications & Achievements
-
-| Certification / Achievement | Issuer | Date |
-|-----------------------------|--------|------|
-| CompTIA Security+ 701 *(In Progress)* | CompTIA | Apr 2026 |
-| ISO/IEC 27001:2022 Lead Implementer | ICDFA | Feb 2026 |
-| API Security Training Cohort | CyberSafe APISecurity Academy | Dec 2025 |
-| Wireshark Workshop Winner — IEEE WIE Global Tech Marathon | IEEE | Sep 2025 |
-| SOC Core Skills | Antisyphon Training | Apr 2025 |
-| NCAE Cyber Games Nationals 2024 & 2025 | NCAE-C | Mar 2025 |
-| Cyber Defense Pro | TestOut / CompTIA | Feb 2025 |
-| DoD Cybersecurity Assurance Series | Department of Defense | Sep 2024 |
-| Introduction to Packet Tracer & Networking Essentials | Cisco Networking Academy | May 2022 |
+| Project | What it covers |
+|---------|----------------|
+| [Source Code Analysis](https://github.com/Radha1008/source-code-analysis-iit) | Static analysis of an open-source project with Bandit, findings mapped to CWE |
+| [SQL Injection & Data Mining](https://github.com/Radha1008/sql-injection-datamining-iit) | SQLmap exploitation, data extraction and analysis in RapidMiner/RStudio |
+| [Active Cyber Defense Threat Model](https://github.com/Radha1008/active-cyber-defense-iit) | Threat model for a smart home, from physical break-ins to IoT attacks |
+| [Linux Bash Scripting](https://github.com/Radha1008/linux-bash-scripting-iit) | Install automation, system status reporting and file cleanup scripts |
+| [Securing the IoT Landscape](https://github.com/Radha1008/securing-iot-landscape-iit) | Research paper: Mirai, the Dyn DDoS and the Ring breach, with mitigations |
+| [Multilevel Security](https://github.com/Radha1008/multilevel-security-iit) | Research paper: Bell-LaPadula, Biba, and MLS in practice |
+| [Algorithmic Bias & Informed Consent](https://github.com/Radha1008/algorithmic-bias-informed-consent-iit) | Research paper on ethics and consent in social media platforms |
 
 ---
 
-## Publication
+## Tech stack
 
-**Wayside Inspection Using Wayside Processing Imaging and Deep Learning**
-*IEEE ICPCSN 2023* — [https://doi.org/10.1109/ICPCSN58827.2023.00065](https://doi.org/10.1109/ICPCSN58827.2023.00065)
+**SIEM & detection**<br>
+![Elastic](https://img.shields.io/badge/Elastic%20SIEM-2b1d17?style=flat-square&logo=elastic&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk-2b1d17?style=flat-square&logo=splunk&logoColor=white)
+![Sigma](https://img.shields.io/badge/Sigma-2b1d17?style=flat-square)
+![Sysmon](https://img.shields.io/badge/Sysmon-2b1d17?style=flat-square)
+![Osquery](https://img.shields.io/badge/Osquery-2b1d17?style=flat-square&logo=osquery&logoColor=white)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-2b1d17?style=flat-square)
 
-Co-authored an automated railway inspection system using U-Net (ResNet50 backbone), achieving 97.52% mPA in detecting wheelset defects from an industrial dataset provided by Vale.
+**Forensics & network**<br>
+![Wireshark](https://img.shields.io/badge/Wireshark-2b1d17?style=flat-square&logo=wireshark&logoColor=white)
+![Autopsy](https://img.shields.io/badge/Autopsy-2b1d17?style=flat-square)
+![Cisco Packet Tracer](https://img.shields.io/badge/Packet%20Tracer-2b1d17?style=flat-square&logo=cisco&logoColor=white)
+![SonicWall](https://img.shields.io/badge/SonicWall-2b1d17?style=flat-square)
+
+**Scripting & tools**<br>
+![Python](https://img.shields.io/badge/Python-2b1d17?style=flat-square&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-2b1d17?style=flat-square&logo=gnubash&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-2b1d17?style=flat-square&logo=javascript&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-2b1d17?style=flat-square&logo=mysql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-2b1d17?style=flat-square&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2b1d17?style=flat-square&logo=githubactions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-2b1d17?style=flat-square&logo=linux&logoColor=white)
+![Windows Server](https://img.shields.io/badge/Windows%20Server-2b1d17?style=flat-square&logo=windows&logoColor=white)
+
+**Frameworks**<br>
+![NIST SP 800-53](https://img.shields.io/badge/NIST%20SP%20800--53-2b1d17?style=flat-square)
+![ISO 27001](https://img.shields.io/badge/ISO%2027001%3A2022-2b1d17?style=flat-square)
+![HIPAA](https://img.shields.io/badge/HIPAA-2b1d17?style=flat-square)
 
 ---
 
-## Leadership & Volunteering
+## Recognition & training
 
-**Treasurer** — TEDxIllinois Tech *(Jan 2025 – May 2025)*
-Managed event finances, vendor/sponsor coordination, and budget tracking with the Office of Student Life.
-
-**Event Planning & Coordination Lead** — TEDxIllinois Tech *(Aug 2024 – Dec 2024)*
-Co-organized *Empowered Together* — 7 speakers, 2 musicians; handled marketing, sponsorships, and execution.
-
----
-
-## Professional Memberships
-
-Women in Cybersecurity (WiCyS) | Raíces Cyber | BlackGirlsHack | Rotary Club
-
----
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/radha-prabhakaran)
-[![GitHub](https://img.shields.io/badge/GitHub-Radha1008-black?style=flat&logo=github)](https://github.com/Radha1008)
-
----
-
-*"Cybersecurity is not a product, but a process."*
+- **Winner**, Wireshark Workshop, IEEE WIE Global Tech Marathon (2025)
+- **Competitor**, NCAE Cyber Games (2024 and 2025)
+- **Publication:** [Wayside Inspection Using Wayside Processing Imaging and Deep Learning](https://doi.org/10.1109/ICPCSN58827.2023.00065), IEEE ICPCSN 2023. A U-Net (ResNet50) model that detects railway wheelset defects at 97.52% mPA.
+- **Training:** ISO/IEC 27001:2022 Lead Implementer course (ICDF Academy), API Security Training Cohort (CyberSafe APISecurity Academy), SOC Core Skills (Antisyphon Training), Cyber Defense Pro (TestOut), DoD Cybersecurity Assurance Series
+- **In progress:** CompTIA Security+ (SY0-701)
