@@ -1,21 +1,12 @@
-<img align="left" src="assets/headshot-round.png" width="180" alt="Radha Prabhakaran">
-
-<h1>Radha Prabhakaran</h1>
-
-<p>
-  <b>SOC · Detection Engineering · DFIR · Security Automation</b><br>
-  I build things that show how attacks chain together, and the detections that catch them.<br>
-  Chicago, IL · M.A.S. Cyber Forensics &amp; Security, Illinois Institute of Technology (2025)
+<p align="center">
+  <img src="assets/header.svg" width="100%" alt="Radha Prabhakaran. SOC, Detection Engineering, DFIR, Security Automation. I build things that show how attacks chain together, and the detections that catch them. Chicago, IL. M.A.S. Cyber Forensics and Security, Illinois Tech (2025).">
 </p>
 
-<p>
-  <a href="https://www.linkedin.com/in/radha-prabhakaran"><img src="https://img.shields.io/badge/LinkedIn-radha--prabhakaran-8f2f22?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:cybrad8@gmail.com"><img src="https://img.shields.io/badge/Email-Get%20in%20touch-8f2f22?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email"></a>
+<p align="center">
+  <a href="https://www.linkedin.com/in/radha-prabhakaran"><img src="assets/btn-linkedin.svg" height="40" alt="LinkedIn"></a>
+  &nbsp;
+  <a href="mailto:cybrad8@gmail.com"><img src="assets/btn-email.svg" height="40" alt="Email cybrad8@gmail.com"></a>
 </p>
-
-<br clear="left">
-
----
 
 ## About me
 
@@ -23,8 +14,6 @@
 - Trained in a SOC analyst cohort at Raíces Cyber, where I triaged 2,000+ simulated alerts in an instructor-built Elastic SIEM environment and tuned detection rules.
 - IEEE-published researcher and patent co-inventor, with a B.E. in Electronics & Communication Engineering.
 - Currently studying for CompTIA Security+ and building blue-team projects in the open.
-
----
 
 ## Featured projects
 
@@ -59,8 +48,6 @@ A group audit of university security documentation against NIST SP 800-171A. We 
 
 `NIST SP 800-171A` `Audit` `Risk assessment`
 
----
-
 ## More work
 
 | Project | What it covers |
@@ -72,8 +59,6 @@ A group audit of university security documentation against NIST SP 800-171A. We 
 | [Securing the IoT Landscape](https://github.com/Radha1008/securing-iot-landscape-iit) | Research paper: Mirai, the Dyn DDoS and the Ring breach, with mitigations |
 | [Multilevel Security](https://github.com/Radha1008/multilevel-security-iit) | Research paper: Bell-LaPadula, Biba, and MLS in practice |
 | [Algorithmic Bias & Informed Consent](https://github.com/Radha1008/algorithmic-bias-informed-consent-iit) | Research paper on ethics and consent in social media platforms |
-
----
 
 ## Tech stack
 
@@ -105,8 +90,6 @@ A group audit of university security documentation against NIST SP 800-171A. We 
 ![NIST SP 800-53](https://img.shields.io/badge/NIST%20SP%20800--53-2b1d17?style=flat-square)
 ![ISO 27001](https://img.shields.io/badge/ISO%2027001%3A2022-2b1d17?style=flat-square)
 ![HIPAA](https://img.shields.io/badge/HIPAA-2b1d17?style=flat-square)
-
----
 
 ## Recognition & training
 
