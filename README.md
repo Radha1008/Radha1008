@@ -17,16 +17,16 @@
 
 ## Featured projects
 
-### [Chain Reaction](https://github.com/Radha1008/chainreaction-ewgh-2026)
+### [Chain Reaction](https://github.com/Radha1008/chain-reaction)
 
-<a href="https://radha1008.github.io/chainreaction-ewgh-2026/"><img src="assets/chain-reaction.png" alt="Chain Reaction home page: a recon terminal where you play the attacker" width="100%"></a>
+<a href="https://radha1008.github.io/chain-reaction/"><img src="assets/chain-reaction.png" alt="Chain Reaction start page: an attack chain whose links light up one by one until a single fix breaks it" width="100%"></a>
 
 A privacy-first attack-path simulator. Pick everyday habits and it draws the path an attacker could walk from one to the next, then shows the cheapest link to break. Runs entirely in the browser on a deterministic rules engine, with no tracking and no model calls.
 
-- **Analyst mode** maps every step of every path to MITRE ATT&CK v20, with a Defender view of where each step could be detected, and says so honestly when no technique fits.
+- **Analyst mode** maps every step of every path to MITRE ATT&CK v20, with a note on where each step could be detected, and says so honestly when no technique fits.
 - **Detection Pack:** Sigma rules for the steps that leave a trace in Microsoft Entra ID and Exchange Online logs, tested on every push against attack and near-miss samples. CI validates each rule, checks fields against Sentinel table schemas, and builds KQL and SPL.
 
-[**Live demo**](https://radha1008.github.io/chainreaction-ewgh-2026/) · [Detection Pack](https://github.com/Radha1008/chainreaction-ewgh-2026/tree/main/detections)
+[**Live demo**](https://radha1008.github.io/chain-reaction/) · [Detection Pack](https://github.com/Radha1008/chain-reaction/tree/main/detections)
 
 `JavaScript` `Sigma` `pySigma` `MITRE ATT&CK` `KQL` `SPL` `GitHub Actions`
 
